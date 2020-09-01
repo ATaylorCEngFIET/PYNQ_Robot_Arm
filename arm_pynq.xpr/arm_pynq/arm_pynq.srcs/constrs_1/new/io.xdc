@@ -1,0 +1,2 @@
+set_property -dict { PACKAGE_PIN P16   IOSTANDARD LVCMOS33 } [get_ports { IIC_0_scl_io }]; #IO_L24N_T3_34 Sch=ck_scl
+set_property -dict { PACKAGE_PIN P15   IOSTANDARD LVCMOS33 } [get_ports { IIC_0_sda_io }]; #IO_L24P_T3_34 Sch=ck_sda

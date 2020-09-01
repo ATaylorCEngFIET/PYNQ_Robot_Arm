@@ -1,0 +1,67 @@
+#-----------------------------------------------------------
+# Vivado v2019.1.1 (64-bit)
+# SW Build 2580384 on Sat Jun 29 08:12:21 MDT 2019
+# IP Build 2579722 on Sat Jun 29 11:35:40 MDT 2019
+# Start of session at: Tue Sep  1 13:26:41 2020
+# Process ID: 9624
+# Current directory: C:/Users/aptay/AppData/Roaming/Xilinx/Vivado
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent1644
+# Log file: C:/Users/aptay/AppData/Roaming/Xilinx/Vivado/vivado.log
+# Journal file: C:/Users/aptay/AppData/Roaming/Xilinx/Vivado\vivado.jou
+#-----------------------------------------------------------start_gui
+exit
+INFO: [Common 17-206] Exiting Vivado at Tue Sep  1 13:27:07 2020...
+inished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2019.1/data/ip'.
+open_project: Time (s): cpu = 00:00:23 ; elapsed = 00:00:11 . Memory (MB): peak = 1064.645 ; gain = 346.879
+update_compile_order -fileset sources_1
+archive_project C:/hdl_projects/arm_pynq.xpr.zip -temp_dir C:/temp -force -exclude_run_results -include_local_ip_cache
+INFO: [Coretcl 2-137] starting archive...
+INFO: [Coretcl 2-1499] Saving project copy to temporary location 'C:/temp' for archiving project
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2019.1/data/ip'.
+INFO: [Coretcl 2-1211] Creating project copy for archival...
+INFO: [Coretcl 2-135] resetting runs for excluding generated files from archive...
+WARNING: [Coretcl 2-105] Run 'synth_1' is currently active
+INFO: [Coretcl 2-133] re-setting run 'synth_1'...
+WARNING: [Coretcl 2-105] Run 'design_1_auto_pc_0_synth_1' is currently active
+INFO: [Coretcl 2-133] re-setting run 'design_1_auto_pc_0_synth_1'...
+WARNING: [Coretcl 2-105] Run 'design_1_axi_iic_0_0_synth_1' is currently active
+INFO: [Coretcl 2-133] re-setting run 'design_1_axi_iic_0_0_synth_1'...
+WARNING: [Coretcl 2-105] Run 'design_1_processing_system7_0_0_synth_1' is currently active
+INFO: [Coretcl 2-133] re-setting run 'design_1_processing_system7_0_0_synth_1'...
+WARNING: [Coretcl 2-105] Run 'design_1_xbar_0_synth_1' is currently active
+INFO: [Coretcl 2-133] re-setting run 'design_1_xbar_0_synth_1'...
+WARNING: [Coretcl 2-105] Run 'design_1_axi_intc_0_0_synth_1' is currently active
+INFO: [Coretcl 2-133] re-setting run 'design_1_axi_intc_0_0_synth_1'...
+WARNING: [Coretcl 2-105] Run 'design_1_rst_ps7_0_100M_0_synth_1' is currently active
+INFO: [Coretcl 2-133] re-setting run 'design_1_rst_ps7_0_100M_0_synth_1'...
+INFO: [Coretcl 2-133] re-setting run 'impl_1'...
+INFO: [Coretcl 2-133] re-setting run 'design_1_auto_pc_0_impl_1'...
+INFO: [Coretcl 2-133] re-setting run 'design_1_axi_iic_0_0_impl_1'...
+INFO: [Coretcl 2-133] re-setting run 'design_1_processing_system7_0_0_impl_1'...
+INFO: [Coretcl 2-133] re-setting run 'design_1_xbar_0_impl_1'...
+INFO: [Coretcl 2-133] re-setting run 'design_1_axi_intc_0_0_impl_1'...
+INFO: [Coretcl 2-133] re-setting run 'design_1_rst_ps7_0_100M_0_impl_1'...
+INFO: [Coretcl 2-1212] Importing remotely added design sources and verilog include files (if any)...
+INFO: [filemgmt 20-334] All file(s) are already imported in fileset: 'design_1_auto_pc_0'
+INFO: [filemgmt 20-348] Importing the appropriate files for fileset: 'design_1_auto_pc_0'
+INFO: [filemgmt 20-334] All file(s) are already imported in fileset: 'design_1_axi_iic_0_0'
+INFO: [filemgmt 20-348] Importing the appropriate files for fileset: 'design_1_axi_iic_0_0'
+INFO: [filemgmt 20-334] All file(s) are already imported in fileset: 'design_1_axi_intc_0_0'
+INFO: [filemgmt 20-348] Importing the appropriate files for fileset: 'design_1_axi_intc_0_0'
+INFO: [filemgmt 20-334] All file(s) are already imported in fileset: 'design_1_processing_system7_0_0'
+INFO: [filemgmt 20-348] Importing the appropriate files for fileset: 'design_1_processing_system7_0_0'
+INFO: [filemgmt 20-334] All file(s) are already imported in fileset: 'design_1_rst_ps7_0_100M_0'
+INFO: [filemgmt 20-348] Importing the appropriate files for fileset: 'design_1_rst_ps7_0_100M_0'
+INFO: [filemgmt 20-334] All file(s) are already imported in fileset: 'design_1_xbar_0'
+INFO: [filemgmt 20-348] Importing the appropriate files for fileset: 'design_1_xbar_0'
+INFO: [filemgmt 20-334] All file(s) are already imported in fileset: 'constrs_1'
+INFO: [filemgmt 20-348] Importing the appropriate files for fileset: 'constrs_1'
+INFO: [filemgmt 20-334] All file(s) are already imported in fileset: 'sources_1'
+INFO: [filemgmt 20-348] Importing the appropriate files for fileset: 'sources_1'
